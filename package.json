@@ -1,0 +1,21 @@
+{
+	"name": "tcp-server",
+	"version": "1.0.0",
+	"description": "practicing tcp, sockets, http",
+	"license": "ISC",
+	"author": "ifeoluwa",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "node --import=tsx ./src/index.ts"
+	},
+	"devDependencies": {
+		"@types/node": "^26.6.2",
+		"tsx": "^4.23.15"
+	},
+	"allowScripts": {
+		"esbuild@0.28.2": true,
+		"fsevents@2.3.3": true
+	}
+}
