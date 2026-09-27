@@ -6,7 +6,7 @@ import { socket } from './socket';
 
 socket.connect(
 	{
-		path: '/tmp/tcp-server.sock',
+		port: 3030,
 	},
 	() => {
 		console.log('connected to "/tmp/tcp-serverrr..."');
